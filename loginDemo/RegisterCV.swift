@@ -37,4 +37,7 @@ class RegisterCV: UIViewController {
             }
         }
     }
+    @IBAction func clickToLoginButton(_ sender: UIButton) {
+        self.navigationController?.popViewController(animated: true)
+    }
 }
